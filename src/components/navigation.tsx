@@ -24,8 +24,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <GraduationCap className="text-2xl text-primary mr-3" />
-            <span className="text-xl font-bold">IRS 2024</span>
+            <img src="https://www.anciitk.co.in/favicon.ico" className="text-2xl text-primary w-8 h-8 mr-3" />
+            <span className="text-xl font-bold">Institute Research Symposium 2025</span>
           </div>
 
           {/* Desktop Navigation */}
