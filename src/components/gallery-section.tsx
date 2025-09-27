@@ -6,27 +6,64 @@ export function GallerySection() {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "/images/ppt.jpg",
       alt: "Conference presentation in auditorium"
     },
     {
-      src: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Researchers at poster session"
+      src: "/images/poster.jpg",
+      alt: "poster"
     },
     {
-      src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Networking coffee break"
+      src: "/images/audience.jpg",
+      alt: ""
     },
     {
-      src: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Expert panel discussion"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "/images/award.jpg",
       alt: "Awards ceremony"
     },
     {
-      src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "/images/banner.jpg",
+      alt: "banner"
+    },
+    {
+      src: "/images/exhibi.jpg",
+      alt: ""
+    },
+    {
+      src: "/images/grp.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/grp2.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/opening.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/ppt.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/proflec.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/proflec2.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/speaker.jpg",
+      alt: "Workshop collaboration"
+    },
+    {
+      src: "/images/speaker2.jpg",
+      alt: "Workshop collaboration"
+    },
+  
+    {
+      src: "/images/team.jpg",
       alt: "Workshop collaboration"
     }
   ];
