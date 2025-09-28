@@ -6,64 +6,64 @@ export function GallerySection() {
 
   const galleryImages = [
     {
-      src: "/src/images/ppt.jpg",
+      src: "/images/ppt.jpg",
       alt: "Conference presentation in auditorium"
     },
     {
-      src: "/src/images/poster.jpg",
+      src: "/images/poster.jpg",
       alt: "poster"
     },
     {
-      src: "/src/images/audience.jpg",
+      src: "/images/audience.jpg",
       alt: ""
     },
     {
-      src: "/src/images/award.jpg",
+      src: "/images/award.jpg",
       alt: "Awards ceremony"
     },
     {
-      src: "/src/images/banner.jpg",
+      src: "/images/banner.jpg",
       alt: "banner"
     },
     {
-      src: "/src/images/exhibi.jpg",
+      src: "/images/exhibi.jpg",
       alt: ""
     },
     {
-      src: "/src/images/grp.jpg",
+      src: "/images/grp.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/grp2.jpg",
+      src: "/images/grp2.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/opening.jpg",
+      src: "/images/opening.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/ppt.jpg",
+      src: "/images/ppt.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/proflec.jpg",
+      src: "/images/proflec.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/proflec2.jpg",
+      src: "/images/proflec2.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/speaker.jpg",
+      src: "/images/speaker.jpg",
       alt: "Workshop collaboration"
     },
     {
-      src: "/src/images/speaker2.jpg",
+      src: "/images/speaker2.jpg",
       alt: "Workshop collaboration"
     },
   
     {
-      src: "/src/images/team.jpg",
+      src: "/images/team.jpg",
       alt: "Workshop collaboration"
     }
   ];
