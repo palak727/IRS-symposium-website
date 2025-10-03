@@ -1,5 +1,5 @@
 import { GraduationCap } from "lucide-react";
-import { FaTwitter, FaLinkedin, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 
 export function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -26,16 +26,16 @@ export function Footer() {
               Advancing knowledge through collaborative research and fostering innovation in academic communities worldwide.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-twitter">
-                <FaTwitter className="text-xl" />
+              <a href="https://www.instagram.com/anciitk?igsh=MXcxMDE4YjRvM2pqZw==" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-twitter">
+                <FaInstagram className="text-xl" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-linkedin">
+              <a href="https://www.linkedin.com/company/anciitk/posts/?feedView=all" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-linkedin">
                 <FaLinkedin className="text-xl" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-facebook">
+              <a href="https://www.facebook.com/share/1BevQX5REt/" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-facebook">
                 <FaFacebook className="text-xl" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-youtube">
+              <a href="https://www.youtube.com/@pganciitk4600" className="text-muted-foreground hover:text-primary transition-colors" data-testid="social-youtube">
                 <FaYoutube className="text-xl" />
               </a>
             </div>
@@ -55,47 +55,75 @@ export function Footer() {
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection("speakers")} 
+                  onClick={() => scrollToSection("topics")} 
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="footer-link-speakers"
                 >
-                  Speakers
+                  Topics
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection("gallery")} 
+                  onClick={() => scrollToSection("abstract")} 
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="footer-link-gallery"
                 >
-                  Gallery
+                  Abstract Submission
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection("contact")} 
+                  onClick={() => scrollToSection("schedule")} 
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="footer-link-contact"
                 >
-                  Contact
+                 Schedule
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => scrollToSection("guidelines")} 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  data-testid="footer-link-contact"
+                >
+                 GuideLines
+                </button>
+              </li>
+               <li>
+                <button 
+                  onClick={() => scrollToSection("speakers")} 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  data-testid="footer-link-contact"
+                >
+                 Speakers
+                </button>
+              </li>
+               <li>
+                <button 
+                  onClick={() => scrollToSection("workshops")} 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  data-testid="footer-link-contact"
+                >
+                 Workshops
                 </button>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4" data-testid="footer-resources-title">Resources</h3>
+            <h3 className="font-semibold mb-4" data-testid="footer-resources-title">Events</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-registration">Registration</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-papers">Call for Papers</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-sponsorship">Sponsorship</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-events">Previous Events</a></li>
+              <li><a href="\plenary-talks" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-events">Plenary Talks</a></li>
+              <li><a href="\panel-discussion" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-events">Panel Discussion</a></li>
+              <li><a href="\research-contest" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-events">Research Contest</a></li>
+              <li><a href="\research-hackathon" className="text-muted-foreground hover:text-primary transition-colors" data-testid="footer-link-events">Research Hackathon</a></li>
             </ul>
+            <h3 className="font-medium mb-4 mt-8" data-testid="footer-resources-title">Contact us: pg_anc@iitk.ac.in</h3>
           </div>
         </div>
         
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p data-testid="footer-copyright">&copy; 2024 Institute Research Symposium. All rights reserved.</p>
+          <p data-testid="footer-copyright">&copy; 2025 Institute Research Symposium. All rights reserved.</p>
         </div>
       </div>
     </footer>

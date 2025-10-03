@@ -77,7 +77,7 @@ export function GallerySection() {
   };
 
   return (
-    <section id="gallery" className="py-20 bg-background" data-testid="gallery-section">
+    <section id="gallery" className="py-20 bg-teal-50" data-testid="gallery-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4" data-testid="gallery-title">
@@ -88,26 +88,7 @@ export function GallerySection() {
           </p>
         </div>
         
-        {/* Video Section */}
-        <div className="mb-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="aspect-video bg-card rounded-lg border border-border shadow-lg overflow-hidden" data-testid="youtube-container">
-              <iframe 
-                className="w-full h-full" 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="Institute Research Symposium 2023 Highlights" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
-                data-testid="youtube-iframe"
-              />
-            </div>
-            <p className="text-center text-muted-foreground mt-4" data-testid="video-caption">
-              Experience the highlights from our 2023 Research Symposium
-            </p>
-          </div>
-        </div>
-        
+ 
         {/* Photo Gallery */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((image, index) => (

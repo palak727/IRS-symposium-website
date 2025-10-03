@@ -138,3 +138,15 @@
 .animate-scale-in {
   animation: scaleIn 0.3s ease-out;
 }
+/* Tailwind animation for carousel in globals.css */
+@keyframes carousel {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-25%); }
+  50% { transform: translateX(-50%); }
+  75% { transform: translateX(-75%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-carousel {
+  animation: carousel 20s infinite linear;
+}
